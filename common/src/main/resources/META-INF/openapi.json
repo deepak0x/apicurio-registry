@@ -6690,7 +6690,7 @@
         }
       }
     },
-    "/.well-known/schemas/{type}/{version}": {
+    "/.well-known/schemas/{schemaType}/{version}": {
       "get": {
         "tags": [
           "WellKnown"
@@ -6699,7 +6699,7 @@
         "summary": "Get a well-known schema by type and version",
         "parameters": [
           {
-            "name": "type",
+            "name": "schemaType",
             "in": "path",
             "required": true,
             "schema": {
